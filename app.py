@@ -11,7 +11,7 @@ interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
-# Exact class names from your training (class_indices output)
+# Exact class names from your training
 classes = [
     "Tomato___Bacterial_spot",                        # 0
     "Tomato___Early_blight",                          # 1
